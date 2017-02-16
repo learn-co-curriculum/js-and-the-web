@@ -7,9 +7,9 @@
 
 This is Alice.  Turn Alice turn.
 
-<iframe src="https://github.com/learn-co-curriculum/js-and-the-web/blob/master/story.html" width="500" height="200">
-  <p>Your browser does not support iframes.</p>
-</iframe>
+<a class="jsbin-embed foo" href="http://jsbin.com/iwovaj/74/embed?js,output">
+    Simple Animation Tests</a>
+<script src="http://static.jsbin.com/js/embed.js"></script>
 
 Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
 
