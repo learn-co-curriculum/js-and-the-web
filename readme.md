@@ -7,7 +7,7 @@
 
 This is Alice.  Turn Alice turn.
 
-<iframe src="story.html" width="500" height="200">
+<iframe src="https://github.com/learn-co-curriculum/js-and-the-web/blob/master/story.html" width="500" height="200">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
