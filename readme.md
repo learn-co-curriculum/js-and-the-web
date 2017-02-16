@@ -1,5 +1,28 @@
 ### Javascript
 
+### Objectives
+
+
+### The anatomy of a web site
+
+This is Alice.  Turn Alice turn.
+
+<iframe src="story.html" width="500" height="200">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
+Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
+
+You'll also learn something about Javascript.
+
+###Objectives
+
+* Understand the roles of HTML, CSS, and Javascript in constructing a website.
+* Understand how to view the Javascript of any page online.
+* Understand what we mean by the Document Object Model.  
+
+###
+
 What is javascript?  Let's go to www.espn.com.  A lot of things go into making that website work.  Let's be honest. It looks like a carnival.  Now in this lesson we'll try identify which part of that site is javascript and what is the html.
 
 Well the html is the static content that our browser receives.  What does that mean?  Well do the following.  At the top left of the webpage is the ESPN logo, with the letters ESPN.  If you are using a windows machine right click on it, or in a mac two fingers click on it.  A dropdown will appear and the very bottom you will find inspect.  Click on it.  
