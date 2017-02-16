@@ -7,9 +7,9 @@
 
 This is Alice.  Turn Alice turn.
 
-<div class="embed-container">
-  <a class="jsbin-embed foo" href="//jsbin.com/iwovaj/74/embed?js,output">Simple Animation Tests</a><script src="http://static.jsbin.com/js/embed.js"></script>
-</div>
+
+  <iframe width="880" height="425" frameborder="0" src="//cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.9.1/index.html">
+  </iframe>
 Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
 
 You'll also learn something about Javascript.
