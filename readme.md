@@ -8,8 +8,7 @@
 This is Alice.  Turn Alice turn.
 
 
-  <iframe width="880" height="425" frameborder="0" src="//cdn.rawgit.com/dabbott/react-native-web-player/gh-v1.9.1/index.html">
-  </iframe>
+  <p data-height="268" data-theme-id="0" data-slug-hash="ClnAe" data-user="afkatja" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/ClnAe'>ClnAe</a> by Katja Hollar (<a href='http://codepen.io/afkatja'>@afkatja</a>) on <a href='http://codepen.io'>CodePen</a></p>
 Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
 
 You'll also learn something about Javascript.
