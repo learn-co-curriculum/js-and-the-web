@@ -7,10 +7,9 @@
 
 This is Alice.  Turn Alice turn.
 
-<iframe src="http://jsbin.com/iwovaj/73/embed?js,html,output" width="500" height="200">
-  <p>Your browser does not support iframes.</p>
-</iframe>
-
+<div class="embed-container">
+  <a class="jsbin-embed foo" href="//jsbin.com/iwovaj/74/embed?js,output">Simple Animation Tests</a><script src="http://static.jsbin.com/js/embed.js"></script>
+</div>
 Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
 
 You'll also learn something about Javascript.
