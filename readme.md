@@ -8,7 +8,8 @@
 This is Alice.  Turn Alice turn.
 
 
-  <p data-height="268" data-theme-id="0" data-slug-hash="ClnAe" data-user="afkatja" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/chriscoyier/pen/ClnAe'>ClnAe</a> by Katja Hollar (<a href='http://codepen.io/afkatja'>@afkatja</a>) on <a href='http://codepen.io'>CodePen</a></p>
+<iframe height='197' scrolling='no' title='Pool Ripple' src='//codepen.io/sdras/embed/VPqrOR/?height=197&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/sdras/pen/VPqrOR/'>Pool Ripple</a> by Sarah Drasner (<a href='http://codepen.io/sdras'>@sdras</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
 Alice will keep turning until we stop her.  By the end of this lesson, you'll learn how to stop Alice.  
 
 You'll also learn something about Javascript.
