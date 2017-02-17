@@ -42,6 +42,8 @@ When we say adds behavior we mean a couple of things.  Essentially we mean movin
 
 We still don't know how to implement any of this, by the way.  All we know is that Javascript allows us to do it.  
 
-But after knowing what Javascript brings to the table, one might think that javascript doesn't play such a big role in the web.  What's all the fuss about?  Just a bunch of spinning cats?
+### What's next
+
+After knowing what Javascript brings to the table, one might think that javascript doesn't play such a big role in the web.  What's all the fuss about?  Just a bunch of spinning cats?
 
 In the next section, we will take a brief tour through the evolution of the web.  And then, once we know our place in this new world, we will promptly dive into learning javascript and using javascript to manipulate our web pages.
