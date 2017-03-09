@@ -7,7 +7,7 @@
 
 This is Alice.
 
-<iframe height='265' width="125" scrolling='no' title='js and the web' src='//codepen.io/flatiron/embed/ggyKpb/?height=265&theme-id=0&default-tab=html,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/flatiron/pen/ggyKpb/'>js and the web</a> by Flatiron School (<a href='http://codepen.io/flatiron'>@flatiron</a>) on <a href='http://codepen.io'>CodePen</a>.
+<iframe height='300' scrolling='no' title='js and the web' src='//codepen.io/flatiron/embed/gmmpoz/?height=300&theme-id=27946&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/flatiron/pen/gmmpoz/'>js and the web</a> by Jeffrey Katz (<a href='http://codepen.io/flatiron'>@flatiron</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
 If you click on Alice, you'll notice that Alice has some behavior.  Click on her and find out.  Uh oh, now you've done it.  When Alice is poked, she starts spinning.  She doesn't stop unless clicked again.  It's not a very nice to make a kitten based on the whims of someone's mouse click, so by the end of Alice we'll learn how to stop Alice.  
