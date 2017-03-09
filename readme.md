@@ -23,7 +23,7 @@ When we say Javascript adds behavior to our HTML, we mean that it selects HTML, 
 In this case, the behavior that Javascript added was that when a user clicks on the picture of Alice, Alice spin.  If you look at the Javascript tab, you can see that the code is almost readable.  
 
 ```javascript 
-let image = document.querySelector(".image")
+let image = document.querySelector("#kitten")
 
 image.onclick = toggleClass;
 
@@ -40,10 +40,10 @@ We'll spend the next few sections breaking down all of the components involved i
 
 
 
-1. Select the image by referencing the image css class, and set it equal to the variable image.
+1. Select the image by referencing the id attribute set to kitten, and set it equal to the variable image.
 
 	```javascript 
-		let image = document.querySelector(".image")
+		let image = document.querySelector("#kitten")
 	```
 
 2. Listen for a click event on the image and on a click event call the toggleClass function.
@@ -51,7 +51,8 @@ We'll spend the next few sections breaking down all of the components involved i
 	```javascript
 		image.onclick = toggleClass;
 	```
-3. The toggleClass function, which is called every time there is a click event, will remove a css class of image if one exists, and add a css of click of image if none exists.
+	
+3. The toggleClass function, which is called every time there is a click event, will remove a css class of image if one exists, and add a css of click of image if none exists.  That css class makes the image spin.
 
 	```javascript
 	function toggleClass(){
@@ -72,7 +73,7 @@ So after exploring the above code, we now have a better sense of what we mean wh
   3. Remove or add HTML  
 	  - Javascript can remove or add HTML.  Above, we added and removed the css class image.  
 
-You are not expected to read and understand the Javascript code at this point in time (that's we have this course), but do remember that Javascript allows us to find HTML, listen and respond to events, and remove or add HTML.  
+You are not expected to read and understand the Javascript code at this point in time (you'll get there by going through this course), but do remember that Javascript allows us to find HTML, listen and respond to events, and remove or add HTML.  
 
 Now that you know what Javascript does, you better determine how to change functionality of a website.  This is really nice, because as we'll see in a future lesson, the Javascript code of all websites is exposed and free for you to copy or interact with.  
 
@@ -80,7 +81,7 @@ Now that you know what Javascript does, you better determine how to change funct
 
 In this case, we want to get back to our problem of making sure that Alice does not start or stop spinning based on click events.  Ok, so how can we prevent the spinning upon a click.  Well we know that the Javascript code is responsible for behavior like listening to events and adding or changing content.  So what do we do?  We simply remove the Javascript code.  You'll see that after removing Javascript, you can click on Alice as much as you want.  She won't begin to spin.  
 
-That may seem basic, but that's only because we now have internalized the responsibilities of Javascript in a website: selecting elements, listening for events, and then adding or removing HTML.  
+That may seem basic, but that's only because we now have understand the responsibilities of Javascript in a website: selecting elements, listening for events, and then adding or removing HTML.  
 
 ### Summary
 
