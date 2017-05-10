@@ -5,7 +5,7 @@ This is Alice.
 <iframe height='265' scrolling='no' title='js and the web' src='//codepen.io/joemburgess/embed/bqayRX/?height=265&theme-id=0&default-tab=css,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/joemburgess/pen/bqayRX/'>js and the web</a> by Joe Burgess (<a href='http://codepen.io/joemburgess'>@joemburgess</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
 
-If you click on Alice, you'll notice that Alice has some behavior.  Click on her and find out.  Uh oh, now you've done it.  When Alice is poked, she starts spinning.  She doesn't stop unless clicked again.  It's not very nice to make a kitten spin based on the whims of someone's mouse click, so by the end of this lesson we'll learn how to stop Alice.  
+If you click on Alice, you'll notice that Alice has some behavior.  Click on her and find out.  Uh-oh, now you've done it.  When Alice is poked, she starts spinning.  She doesn't stop unless clicked again.  It's not very nice to make a kitten spin based on the whims of someone's mouse click, so by the end of this lesson, we'll learn how to stop Alice.  
 
 You'll also learn something about Javascript. That's a bit more important. 
 
@@ -35,7 +35,7 @@ We'll spend the next few sections breaking down all of the components involved i
 
 
 
-1. Select the image by referencing the id attribute set to kitten, and set it equal to the variable image.
+1. Select the image by referencing the id attribute set to the kitten, and set it equal to the variable image.
 
 	```javascript 
 		let image = document.querySelector("#kitten")
@@ -47,7 +47,7 @@ We'll spend the next few sections breaking down all of the components involved i
 		image.onclick = toggleClass;
 	```
 	
-3. The toggleClass function, which is called every time there is a click event, will remove a css class of image if one exists, and add a css of click of image if none exists.  That css class makes the image spin.
+3. The toggleClass function, which is called every time there is a click event, will remove a CSS class of `image` if one exists, and add a CSS class of `image` if none exists.  That CSS class makes the image spin.
 
 	```javascript
 	function toggleClass(){
@@ -59,14 +59,14 @@ We'll spend the next few sections breaking down all of the components involved i
 	}
 	```
 
-So after exploring the above code, we now have a better sense of what we mean when we say Javascript adds behavior to our HTML.  Specifically Javascript allows us to (1) find HTML (2) listen and respond to specific events on our browser and (3) remove or add HTML.  
+So after exploring the above code, we now have a better sense of what we mean when we say Javascript adds behavior to our HTML.  Specifically, Javascript allows us to (1) find HTML (2) listen and respond to specific events on our browser and (3) remove or add HTML.  
 
   1. Find HTML
 	  - Javascript allows us to find specific pieces of HTML so that we can later change that HTML.  Above we found the image of the cat.
   2. Listen and respond to events
-	  -  Javascript can listen events like clicking on or hovering over specific elements, the user pressing on specific keys, and many more.  
+	  -  Javascript can listen to events like clicking on or hovering over specific elements, the user pressing on specific keys, and much more.  
   3. Remove or add HTML  
-	  - Javascript can remove or add HTML.  Above, we added and removed the css class `image`.  
+	  - Javascript can remove or add HTML.  Above, we added and removed the CSS class `image`.  
 
 You are not expected to read and understand the Javascript code at this point in time (you'll get there by going through this course), but do remember that Javascript allows us to find HTML, listen and respond to events, and remove or add HTML.  
 
