@@ -76,7 +76,7 @@ Now that you know what Javascript does, you better determine how to change funct
 
 In this case, we want to get back to our problem of making sure that Alice does not start or stop spinning based on click events.  Ok, so how can we prevent the spinning upon a click.  Well we know that the Javascript code is responsible for behavior like listening to events and adding or changing content.  So what do we do?  We simply remove the Javascript code. Go ahead and select the JS tab, and then delete all of the code there. You'll see that after removing Javascript, you can click on Alice as much as you want.  She won't begin to spin.  
 
-That may seem basic, but that's only because we now have understand the responsibilities of Javascript in a website: selecting elements, listening for events, and then adding or removing HTML.  
+That may seem basic, but that's only because we now understand the responsibilities of Javascript in a website: selecting elements, listening for events, and then adding or removing HTML.  
 
 ### Summary
 
@@ -95,3 +95,5 @@ We still don't know how to implement any of this, by the way.  Don't worry, we w
 After knowing how Javascript adds behavior, the next question is what's the big deal?  What's all the fuss about?  Just a bunch of spinning cats?
 
 In the next section, we take a brief tour through the evolution of the web.  Afterwards, we will start writing Javascript to add the types of behavior we learned about above to our code.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/js-and-the-web'>JS And The Web</a> on Learn.co and start learning to code for free.</p>
