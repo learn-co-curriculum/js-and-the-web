@@ -1,6 +1,6 @@
 # Javascript
 
-This is Alice.
+This is Susan.
 
 <iframe height='265' scrolling='no' title='js and the web' src='//codepen.io/joemburgess/embed/bqayRX/?height=265&theme-id=0&default-tab=css,result&embed-version=2&editable=true' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/joemburgess/pen/bqayRX/'>js and the web</a> by Joe Burgess (<a href='http://codepen.io/joemburgess'>@joemburgess</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
