@@ -4,3 +4,5 @@ tags:
 languages:
   - english
 resources: 0
+feature_tours:
+  slack: true
