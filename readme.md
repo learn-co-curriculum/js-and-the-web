@@ -31,7 +31,7 @@ function toggleClass(){
 }
 ```
 
-We'll spend the next few sections breaking down all of the components involved in the above section. **You won't understand everything here, but you will soon!** For now, let's just go briefly explain what each chunk of code does.  By doing so, we can get a better sense of what exactly we mean when we say Javascript adds behavior to our HTML.
+We'll spend the next few sections breaking down all of the components involved in the above section. **You won't understand everything here, but you will soon!** For now, let's briefly explain what each chunk of code does.  By doing so, we can get a better sense of what exactly we mean when we say Javascript adds behavior to our HTML.
 
 
 
