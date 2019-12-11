@@ -59,36 +59,43 @@ We'll spend the next few sections breaking down all of the components involved i
 	}
 	```
 
-So after exploring the above code, we now have a better sense of what we mean when we say Javascript adds behavior to our HTML.  Specifically, Javascript allows us to (1) find HTML (2) listen and respond to specific events on our browser and (3) remove or add HTML.  
+### What JavaScript Can Do
+
+After exploring the above code, we now have a better sense of how Javascript adds behavior to HTML.  Specifically, Javascript allows us to (1) find HTML (2) listen and respond to events and (3) remove or add HTML.
 
   1. Find HTML
-	  - Javascript allows us to find specific pieces of HTML so that we can later change that HTML.  Above we found the image of the cat.
+  	
+	Javascript allows us to find specific pieces of HTML so that we can later change that HTML.  Above, we found the image of the cat.
+	
   2. Listen and respond to events
-	  -  Javascript can listen to events like clicking on or hovering over specific elements, the user pressing on specific keys, and much more.  
-  3. Remove or add HTML  
-	  - Javascript can remove or add HTML.  Above, we added and removed the CSS class `image`.  
+	
+	Javascript can listen to events like clicking on or hovering over specific elements, the user pressing on specific keys, and much more.
 
-You are not expected to read and understand the Javascript code at this point in time (you'll get there by going through this course), but do remember that Javascript allows us to find HTML, listen and respond to events, and remove or add HTML.  
+  3. Remove or add HTML
+  
+	Javascript can remove or add HTML.  Above, we added and removed the CSS class `image`.
 
-Now that you know what Javascript does, you better determine how to change functionality of a website.  This is really nice, because as we'll see in a future lesson, the Javascript code of all websites is exposed and free for you to copy or interact with.  
+You are not expected to read and understand the Javascript code yet (you'll get there by going through this course), but you should be able to tell what JavaScript can do.  
 
 ### Completing Our Task
 
-In this case, we want to get back to our problem of making sure that Alice does not start or stop spinning based on click events.  Ok, so how can we prevent the spinning upon a click.  Well we know that the Javascript code is responsible for behavior like listening to events and adding or changing content.  So what do we do?  We simply remove the Javascript code. Go ahead and select the JS tab, and then delete all of the code there. You'll see that after removing Javascript, you can click on Alice as much as you want.  She won't begin to spin.  
+Back to our problem! We want to make sure that Alice does not start or stop spinning based on click events.
 
-That may seem basic, but that's only because we now understand the responsibilities of Javascript in a website: selecting elements, listening for events, and then adding or removing HTML.  
+Ok, so how can we prevent the spinning upon a click.  Well, we know that the Javascript code is responsible for behavior like listening to events and adding or changing content.  So what do we do?  We simply remove the Javascript code. Go ahead and select the JS tab, and then delete all of the code there. 
+
+You'll see that after removing Javascript, you can click on Alice as much as you want.  She won't begin to spin.
+
+That may seem basic - we'll get to reading and writing JavaScript soon!
 
 ### Summary
 
-When we view a webpage, we are really viewing three different components.  There is the HTML, which is responsible for the content.  There is CSS, which styles a webpage, and there is Javascript which adds behavior to that HTML.  
+When we view a webpage, we are really viewing three different components.  There is the HTML, which is responsible for the content.  There is CSS, which styles the content. Finally, there is Javascript, which adds behavior to that HTML.
 
-When we say Javascript adds behavior we mean three things.  Javascript allows us to:
+When we say Javascript _adds behavior_ we mean three things.  Javascript allows us to:
 
 1. Select certain elements
 2. Add or remove HTML from a webpage
 3. Listen to events on a webpage.
-
-We still don't know how to implement any of this, by the way.  Don't worry, we will.
 
 ### What's next
 
